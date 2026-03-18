@@ -1,9 +1,8 @@
 // https://cses.fi/problemset/task/1068
-#include <iostream> // Allows fot the use of 'std::cin'
-#include <vector>
+#include <iostream> // Allows fot the use of 'std::cin' and 'std::cout'
 
 int main(){
-    long long n;
+    long long n; // bigger range to hinder overflow
     std::cin >> n;
     std::cout << n << std::endl;
     while (n >1)
